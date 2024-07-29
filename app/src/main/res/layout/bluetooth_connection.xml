@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradient"
+    android:padding="16dp"
+    tools:ignore="ExtraText">
+
+    <!-- 뒤로 가기 버튼 -->
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="47dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="@string/back"
+        android:src="@drawable/back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/bluetooth_connection_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:text="Bluetooth"
+        android:textColor="#194569"
+        android:textSize="34dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/bleButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="330dp"
+        android:layout_marginTop="47dp"
+        android:scaleType="centerInside"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="@string/information"
+        android:src="@drawable/information" />
+
+    <ListView
+        android:id="@+id/bluetooth_devices_list"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/bluetooth_connection_title"
+        android:layout_marginTop="20dp"
+        android:divider="@drawable/custom_divider"
+        android:dividerHeight="1.5dp"
+        android:padding="35dp"/>
+
+    <TextView
+        android:id="@+id/connection_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/bluetooth_devices_list"
+        android:layout_marginTop="20dp"
+        android:text="Disconnected"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#194569"/>
+</RelativeLayout>

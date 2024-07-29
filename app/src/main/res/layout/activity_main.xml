@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/goalimage"
+    tools:context=".MainActivity">
+
+    <!-- FrameLayout to contain the light and dark theme layouts -->
+    <FrameLayout
+        android:id="@+id/themeContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Light Theme Layout -->
+        <FrameLayout
+            android:id="@+id/lightThemeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+
+            <com.example.hirou.WaterCupView
+                android:id="@+id/waterCupView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="20dp"
+                android:thumb="@drawable/switch_track_thumb"
+                app:track="@drawable/switch_track_selector"
+
+                />
+        </FrameLayout>
+
+        <!-- Dark Theme Layout -->
+        <FrameLayout
+            android:id="@+id/darkThemeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <com.example.hirou.WaterCupDark
+                android:id="@+id/waterCupDark"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <Switch
+                android:id="@+id/switch2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="20dp"
+                android:thumb="@drawable/switch_track_thumb"
+                app:track="@drawable/switch_track_selector"
+
+                />
+
+        </FrameLayout>
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/format"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/transparent_button"
+        android:text="00:00"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <!-- Layouts and Views that are common to both themes -->
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rounded_button"
+        android:gravity="center_vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/divider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/button"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:src="@drawable/trash" />
+
+        <TextView
+            android:id="@+id/PurposewaterAmountText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="GOAL 2L"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:src="@drawable/add" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="0dp"
+        android:layout_height="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="16dp"
+        android:background="#cccccc"
+        app:layout_constraintBottom_toTopOf="@+id/settingLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/settingLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bluetoothLayout"
+        app:layout_constraintHorizontal_chainStyle="spread">
+
+        <ImageView
+            android:id="@+id/buttonSetting"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="@string/settings"
+            android:src="@drawable/settings" />
+
+        <TextView
+            android:id="@+id/settingTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="setting"
+            android:textColor="#194569"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bluetoothLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/settingLayout"
+        app:layout_constraintEnd_toStartOf="@+id/statisticsLayout">
+
+        <ImageView
+            android:id="@+id/bluetoothIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="@string/bluetooth"
+            android:src="@drawable/bluetooth" />
+
+        <TextView
+            android:id="@+id/bluetoothTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="bluetooth"
+            android:textColor="#194569"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/statisticsLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bluetoothLayout"
+        app:layout_constraintEnd_toStartOf="@+id/reloadLayout">
+
+        <ImageView
+            android:id="@+id/statisticsIcon"
+            android:layout_width="40dp"
+            android:layout_height="39dp"
+            android:contentDescription="@string/chart"
+            android:src="@drawable/chart" />
+
+        <TextView
+            android:id="@+id/statsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="stats"
+            android:textColor="#194569"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/reloadLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/statisticsLayout"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/reloadIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="@drawable/reload"
+            android:src="@drawable/reload" />
+
+        <TextView
+            android:id="@+id/refreshTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="refresh"
+            android:textColor="#194569"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/informationButton"
+        android:layout_width="70dp"
+        android:layout_height="110dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:background="?android:selectableItemBackground"
+        android:contentDescription="@string/information"
+        android:src="@drawable/hirue_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/soFarText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="Total"
+        android:textColor="#194569"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/waterAmountText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.2" />
+
+    <TextView
+        android:id="@+id/waterAmountText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="0mL"
+        android:textColor="#5f84a2"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <TextView
+        android:id="@+id/amountPercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="0%"
+        android:textSize="40sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <TextView
+        android:id="@+id/farText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="Now"
+        android:textColor="#194569"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.22" />
+
+    <TextView
+        android:id="@+id/nowAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="0mL"
+        android:textColor="#5f84a2"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.26"/>
+
+    <!--<TextView
+        android:id="@+id/tumble"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:textSize="15sp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="100dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#194569"
+        android:gravity="center"
+        android:text="현재 텀블러 무게: 0kg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/waterAmountText" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,31 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 기존 스타일 정의는 그대로 두고 새로운 스타일을 추가합니다 -->
+    <style name="CustomProgressBar" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/custom_progress_bar</item>
+        <item name="android:minHeight">20dp</item> <!-- ProgressBar의 최소 높이를 설정 -->
+        <item name="android:maxHeight">20dp</item> <!-- ProgressBar의 최대 높이를 설정 -->
+    </style>
+
+    <style name="CustomTimePicker" parent="android:Widget.Material.TimePicker">
+        <item name="android:textColorPrimary">#194569</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="RoundedDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:background">@drawable/rounded_corners</item>
+        <item name="android:windowMinWidthMajor">85%</item>
+        <item name="android:windowMinWidthMinor">85%</item>
+        <item name="android:windowBackground">@drawable/rounded_corners</item>
+    </style>
+
+    <!-- 스위치 관련 코드 문 (효과가 없음) -->
+    <style name="Switch" parent="Widget.AppCompat.CompoundButton.Switch">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:thumb">@drawable/switch_track_thumb</item>
+        <item name="android:track">@drawable/switch_track_selector</item>
+        <item name="switchMinWidth">48dp</item>
+    </style>
+
+</resources>

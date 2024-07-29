@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/a">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corners"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/whatIsHirueImage"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/hirue"
+                android:layout_gravity="center"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/whatIsHirueText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stats"
+                android:textStyle="bold"
+                android:textColor="@color/f"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/whatIsHirueText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n Reach \n your desired target \n every day! \n\n Weekly statistics are pages \n where you can check \n how much \n you drank by day of the week \n and how much you drank that week.\n\n\nProduction: P.D.W"
+                android:textColor="@color/f"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+    <!--android:text="\n 매일매일 \n원하는 목표량에\n도달해보세요! \n\n주간 통계는 \n요일별 마신량과 \n그 주에 얼마나 마셨는지\n확인할 수 있는\n페이지입니다.\n\n\n제작: 물좀마셔조\nProduction: P.D.W"-->
+    <!--Reach your desired target every day! Weekly statistics are pages where you can check how much you drank by day of the week and how much you drank that week.-->

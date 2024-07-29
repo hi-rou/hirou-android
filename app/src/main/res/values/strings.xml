@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HIRou</string>
+    <string name="channel_name">GoalAttainment Notification Channel</string>
+    <string name="channel_description">Notifications for GoalAttainment alerts</string>
+    <string name="settings">설정</string>
+    <string name="bluetooth">블루투스</string>
+    <string name="chart">차트</string>
+    <string name="information">정보</string>
+    <string name="mode_setting" />
+    <string name="back" />
+</resources>

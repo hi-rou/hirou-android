@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/a">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corners"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/whatIsHirueImage"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/hirue"
+                android:layout_gravity="center"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/whatIsHirueText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hydration Manager"
+                android:textStyle="bold"
+                android:textColor="@color/f"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/whatIsHirueText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n It is an application \n that measures \n the amount of water\n you drink per day \n and informs you. \n\n It is a health service \n and product \n that usually helps you \n challenge drinking \n 2L a day. \n\n\nProduction: P.D.W"
+                android:textColor="@color/f"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+    <!--It is an application that measures the amount of water you drink per day and informs you. It is a health service and product that usually helps you challenge drinking 2L a day. -->
+    <!--\n 하루에 마시는 \n물의 양을 측정해\n알려주는 제품입니다.\n\n일반적으로 \n하루에 2L 마시기를 \n도전할 수 있도록 도와주며,\n목표를 달성할 시\n축하의 문구를 \n알림으로 알려주는\n건강 서비스 앱 및 제품입니다.\n\n\n제작: 물좀마셔조\nProduction: P.D.W"-->

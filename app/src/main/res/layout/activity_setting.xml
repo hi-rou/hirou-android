@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activitySetting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".SettingActivity">
+
+    <!-- 뒤로 가기 버튼 -->
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="47dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="@string/back"
+        android:src="@drawable/back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- 설정 헤더 -->
+    <TextView
+        android:id="@+id/settings_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="Setting"
+        android:textColor="#194569"
+        android:textSize="34dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- 알림 설정 아이콘 및 텍스트 -->
+    <ImageView
+        android:id="@+id/notificationSettingsIcon"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/alram"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settings_header" />
+
+    <!-- 가려진 항목 TimePicker, 선택된 시간 표시하는 TextView, 시간 선택하는 Button -->
+    <TextView
+        android:id="@+id/notificationSettingsText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:text="Set notification"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#194569"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/notificationSettingsIcon"
+        app:layout_constraintTop_toTopOf="@+id/notificationSettingsIcon" />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:timePickerMode="spinner"
+        android:theme="@style/CustomTimePicker"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/notificationSettingsText"
+        android:layout_marginStart="36dp" />
+
+
+    <TextView
+        android:id="@+id/showSelectedTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="Selected time : "
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@+id/timePicker"
+        app:layout_constraintTop_toBottomOf="@+id/timePicker" />
+
+    <Button
+        android:id="@+id/buttonSetTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Select"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@+id/timePicker"
+        app:layout_constraintTop_toBottomOf="@+id/showSelectedTime" />
+
+    <!-- 목표량 설정 아이콘 및 텍스트 -->
+    <ImageView
+        android:id="@+id/icon_goal_amount_settings"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/goal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSetTime" />
+
+    <TextView
+        android:id="@+id/goal_amount_settings_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:text="Set target amount (ml)"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#194569"
+        app:layout_constraintStart_toEndOf="@+id/icon_goal_amount_settings"
+        app:layout_constraintTop_toTopOf="@+id/icon_goal_amount_settings"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <Spinner
+        android:id="@+id/spinnerGoal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/goal_amount_settings_label"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp" />
+
+    <!-- 텀블러 무게 설정 아이콘 및 텍스트 -->
+    <!-- <ImageView
+        android:id="@+id/icon_tumbler_weight_settings"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/weight"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerGoal" />
+
+    <TextView
+        android:id="@+id/tumbler_weight_settings_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:text="텀블러 무게 설정 (kg)"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#194569"
+        app:layout_constraintStart_toEndOf="@+id/icon_tumbler_weight_settings"
+        app:layout_constraintTop_toTopOf="@+id/icon_tumbler_weight_settings"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <Spinner
+        android:id="@+id/spinnerTumblerWeight"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tumbler_weight_settings_label"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp" />
+        -->
+
+    <!-- 정보 icon -->
+    <ImageButton
+        android:id="@+id/informationButton"
+        android:layout_width="70dp"
+        android:layout_height="90dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:background="?android:selectableItemBackground"
+        android:contentDescription="@string/information"
+        android:src="@drawable/hirue_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

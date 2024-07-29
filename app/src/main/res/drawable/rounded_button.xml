@@ -1,0 +1,5 @@
+<!-- rounded_button.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/d" /> <!-- 원하는 버튼 색상으로 변경 -->
+    <corners android:radius="50dp" /> <!-- 꼭짓점이 둥근 정도 설정 -->
+</shape>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="water_goals">
+        <item>500</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+    </string-array>
+
+    <!--<string-array name="tumbler_weight_options">
+        <item>500g</item>
+        <item>750g</item>
+        <item>1kg</item>
+        <item>1.25kg</item>
+        <item>1.5kg</item>
+    </string-array> -->
+    <!-- 텁블러 초기화 전 텀블러 무게에 따른 영점 조절을 계획 했었음 -->
+
+</resources>
+
+    <!-- NonachieveNotion.java의 스피너 설정. R.array.water_goals의 파일 -->
+    <!-- water_goals의 배열을 따로 파일을 만들어 저장. 스피너의 아이템들 -->

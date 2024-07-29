@@ -1,0 +1,9 @@
+<!-- res/layout/list_item_bluetooth_device.xml -->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="16dp"
+    android:textColor="#5f84a2"
+    android:textSize="18sp"
+    android:textStyle="bold" />
