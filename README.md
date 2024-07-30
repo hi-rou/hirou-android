@@ -3,7 +3,7 @@
 
 ### 📆 프로젝트 기간
 
-- CPASTONE DESIGN : 2024.03.01 ~ 2024.06.14
+- CAPSTONE DESIGN : 2024.03.01 ~ 2024.06.14
 - James Dyson Award : ~ 2024.07.17
 
 <br/>
