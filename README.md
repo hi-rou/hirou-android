@@ -14,7 +14,7 @@
    <tr>
     <td align="center"><b><a href="https://github.com/thanx-To-Dev-Minsoo">김민수</a></b></td>
     <td align="center"><b><a href="https://github.com/Chan0322">이동찬</a></b></td>
-    <td align="center"><b><a href="https://github.com/Ekdzhd1">강성현</a></b></td>
+    <td align="center"><b><a href="https://github.com/KangPeanut">강성현</a></b></td>
     <td align="center"><b><a href="https://github.com/papjukuk">박준혁</a></b></td>
 <td align="center"><b><a href="https://github.com/8haneol8">이한얼</a></b></td>
   </tr>
