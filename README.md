@@ -28,7 +28,6 @@
 </table>
 
 <br/>
-<br/>
 
 ## Introduction to Project Features
 
