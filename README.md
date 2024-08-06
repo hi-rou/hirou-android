@@ -48,7 +48,7 @@
   <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=Android&logoColor=white"/>
 </p>
 
-#### Backend
+#### Backend (Bluetooth function)
 
 <p>
   <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=Android&logoColor=white"/>
