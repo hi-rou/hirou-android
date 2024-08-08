@@ -521,3 +521,5 @@ public class MainActivity extends AppCompatActivity {
         Log.d("resetAlarm", "ResetHour : " + setResetTime);
     }
 }
+
+// 2024521016 이동찬
