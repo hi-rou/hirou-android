@@ -522,4 +522,7 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 
+
+// 이곳에다 자기자신 학번 이름 기입하기
+// 2024521003 김민수
 // 2024521016 이동찬
