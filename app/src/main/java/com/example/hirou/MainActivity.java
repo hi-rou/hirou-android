@@ -521,3 +521,11 @@ public class MainActivity extends AppCompatActivity {
         Log.d("resetAlarm", "ResetHour : " + setResetTime);
     }
 }
+
+
+// 이곳에다 자기자신 학번 이름 기입하기
+// 2024521003 김민수_
+// 2024521016 이동찬_
+// 2024521001 강성현
+// 2024521009 박준혁
+// 2024521021 이한얼
