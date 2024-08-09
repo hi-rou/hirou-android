@@ -63,5 +63,8 @@
 </p>
 
 <br>
-<br>
 
+## Main Screen
+![MainActivity_2](https://github.com/thanx-To-Dev-Minsoo/2L-daily-routine_Android/assets/136697128/1b462772-2dba-4c4c-ba04-4575b0c0fa41) ![Main_dark_2](https://github.com/thanx-To-Dev-Minsoo/2L-daily-routine_Android/assets/136697128/bf253487-c493-4722-81fc-1e2c0c09ef0a) ![Setting_1](https://github.com/thanx-To-Dev-Minsoo/2L-daily-routine_Android/assets/136697128/7f06286a-69d2-4296-87c0-2c34e33a77e2)
+
+<br>
