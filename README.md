@@ -1,5 +1,4 @@
 ﻿# HiRou-Android
- <br/>
 
 ### You can see how it works!
 <br/>
