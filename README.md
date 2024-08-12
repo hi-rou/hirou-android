@@ -13,7 +13,9 @@
         <img 
             src="https://img.shields.io/badge/JAMESDYSON-000000?style=for-the-badge&logo=JAMESDYSON&logoColor=white&link=https://www.jamesdysonaward.org/ko-KR/2024/project/hirou-hydration-intake-routine"
             style="height: auto; margin-left: 20px; margin-right: 20px; padding: 10px;"/>
-    </a> (2024.07.17 ~ 2024.09.11)
+    </a> 
+    <br>
+    (2024.07.17 ~ 2024.09.11)
 
 <br/>
 <br/>
