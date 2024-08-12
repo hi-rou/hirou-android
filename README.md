@@ -23,7 +23,7 @@
 ### 📆 Project Period
 
 - CAPSTONE DESIGN : 2024.03.01 ~ 2024.06.14
-- James Dyson Award : 2024.03.01 ~ 2024.07.17
+- James Dyson Award : 2024.06.17 ~ 2024.07.17 (Modifying and supplementing functions)
 
 <br/>
 
