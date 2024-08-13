@@ -74,7 +74,7 @@
   <img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=Gradle&logoColor=white"/>
 </p>
 
-#### Dev tools
+#### Dev Tools
 
 <p> 
   <img src="https://img.shields.io/badge/AndroidStudio-3DDC84?style=for-the-badge&logo=AndroidStudio&logoColor=white"/>
@@ -82,6 +82,12 @@
   <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white">
 </p>
 
+#### CoworkingTools
+
+<p>
+  <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"/>
+  <img src="https://img.shields.io/badge/ZOOM-0B5CFF?style=for-the-badge&logo=ZOOM&logoColor=white"/>
+</p>
 <br>
 
 ## Main Screen
