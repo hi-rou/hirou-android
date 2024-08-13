@@ -16,6 +16,13 @@
     </a> 
     <br>
     (2024.07.17 ~ 2024.09.11)
+    <br>
+    <br>
+<a href="https://childlike-ambulance-5a9.notion.site/346c92f172774a6bb3ef714a859d65fc">
+        <img 
+            src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white&link=https://childlike-ambulance-5a9.notion.site/346c92f172774a6bb3ef714a859d65fc"
+            style="height: auto; margin-left: 20px; margin-right: 20px; padding: 10px;"/>
+    </a> 
 
 <br/>
 <br/>
