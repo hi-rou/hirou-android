@@ -38,7 +38,7 @@
 
 <table>
    <tr>
-    <td align="center"><b><a href="https://github.com/KimMDev">김민수</a></b></td>
+    <td align="center"><b><a href="https://github.com/eksploit-kim">김민수</a></b></td>
     <td align="center"><b><a href="https://github.com/Chan0322">이동찬</a></b></td>
     <td align="center"><b><a href="https://github.com/KangPeanut">강성현</a></b></td>
     <td align="center"><b><a href="https://github.com/papjukuk">박준혁</a></b></td>
