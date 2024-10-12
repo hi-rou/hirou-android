@@ -33,11 +33,11 @@
 ### 😎 Members
 <table>
    <tr>
-    <td align="center"><b><a href="https://github.com/eksploiter">김민수</a></b></td>
-    <td align="center"><b><a href="https://github.com/Chan0322">이동찬</a></b></td>
-    <td align="center"><b><a href="https://github.com/KangPeanut">강성현</a></b></td>
-    <td align="center"><b><a href="https://github.com/papjukuk">박준혁</a></b></td>
-<td align="center"><b><a href="https://github.com/8haneol8">이한얼</a></b></td>
+    <td align="center"><b><a href="https://github.com/eksploiter">eksploiter</a></b></td>
+    <td align="center"><b><a href="https://github.com/Chan0322">Chan0322</a></b></td>
+    <td align="center"><b><a href="https://github.com/KangPeanut">KangPeanut</a></b></td>
+    <td align="center"><b><a href="https://github.com/papjukuk">papjukuk</a></b></td>
+<td align="center"><b><a href="https://github.com/8haneol8">8haneol8</a></b></td>
   </tr>
   <tr>
     <td align="center"><b>Leader</b></td>
