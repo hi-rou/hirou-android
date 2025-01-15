@@ -48,7 +48,7 @@
 4. Monitor the user's weekly water intake through the weekly statistics feature.
 5. Compare the user's current water intake with their set goal, and provide notifications if the goal is not met to encourage hydration.
 <br>
-  HiRou pairs with a mobile application via Bluetooth, allowing for periodic data transmission between the device and the app. The load cell inside the device measures weight changes, which are then converted to ML to calculate water intake. The LED indicates the operational status of each function. The device compares the user's current water intake with their set goal and sends notifications at scheduled times if the goal is not met to encourage the user to drink more water.
+  HiRou pairs with a mobile application via Bluetooth, allowing for periodic data transmission between the device and the app. The load cell inside the device measures weight changes, which are then converted to mL to calculate water intake. The LED indicates the operational status of each function. The device compares the user's current water intake with their set goal and sends notifications at scheduled times if the goal is not met to encourage the user to drink more water.
 
 <br>
 <br/>
