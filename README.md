@@ -6,7 +6,7 @@
             style="height: auto; margin-left: 20px; margin-right: 20px; padding: 10px;"/>
     </a>
     <br>
-<a href="https://www.jamesdysonaward.org/ko-KR/2024/project/hirou-hydration-intake-routine">
+<!--<a href="https://www.jamesdysonaward.org/ko-KR/2024/project/hirou-hydration-intake-routine">
         <img 
             src="https://img.shields.io/badge/JAMESDYSON-000000?style=for-the-badge&logo=JAMESDYSON&logoColor=white&link=https://www.jamesdysonaward.org/ko-KR/2024/project/hirou-hydration-intake-routine"
             style="height: auto; margin-left: 20px; margin-right: 20px; padding: 10px;"/>
@@ -21,7 +21,7 @@
             style="height: auto; margin-left: 20px; margin-right: 20px; padding: 10px;"/>
     </a> 
 <br/>
-<br/>
+<br/>-->
 
 
 ### 📆 Project Period
