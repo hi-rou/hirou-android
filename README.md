@@ -6,29 +6,16 @@
             style="height: auto; margin-left: 20px; margin-right: 20px; padding: 10px;"/>
     </a>
     <br>
-    <img src="https://github.com/user-attachments/assets/fb85aebc-828d-4178-b72a-1a965114765f" />
-<!--<a href="https://www.jamesdysonaward.org/ko-KR/2024/project/hirou-hydration-intake-routine">
-        <img 
-            src="https://img.shields.io/badge/JAMESDYSON-000000?style=for-the-badge&logo=JAMESDYSON&logoColor=white&link=https://www.jamesdysonaward.org/ko-KR/2024/project/hirou-hydration-intake-routine"
-            style="height: auto; margin-left: 20px; margin-right: 20px; padding: 10px;"/>
-    </a> 
-    <br>
-    (2024.07.17 ~ 2024.09.11)
-    <br>
-    <br>
-<a href="https://childlike-ambulance-5a9.notion.site/346c92f172774a6bb3ef714a859d65fc">
-        <img 
-            src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white&link=https://childlike-ambulance-5a9.notion.site/346c92f172774a6bb3ef714a859d65fc"
-            style="height: auto; margin-left: 20px; margin-right: 20px; padding: 10px;"/>
-    </a> 
-<br/>
-<br/>-->
 
-
-### 📆 Project Period
+    ### 📆 Project Period
 - CAPSTONE DESIGN : 2024.03.01 ~ 2024.06.14
 - James Dyson Award : 2024.06.17 ~ 2024.07.17 (Modifying and supplementing functions)
-<br/>
+  <br/>
+    <img src="https://github.com/user-attachments/assets/fb85aebc-828d-4178-b72a-1a965114765f" />
+    <img src="https://github.com/user-attachments/assets/b3adb0a1-5b2f-4fbd-9685-18929307aa53" />
+    <img src="https://github.com/user-attachments/assets/d041d180-9f97-48ed-9ee9-6901b56eb98c" />
+    <img src="https://github.com/user-attachments/assets/671aab50-a255-4c1d-92cc-236643c13393" />
+    <img src="https://github.com/user-attachments/assets/0cb0f065-9058-4a4c-98cc-dd567194ef0d" />
 
 
 ### 😎 Members
