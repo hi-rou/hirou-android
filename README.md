@@ -97,22 +97,9 @@
 <br>
 
 ### 😎 Members
-<table>
-   <tr>
-    <td align="center"><b><a href="https://github.com/eksploiter">eksploiter</a></b></td>
-    <td align="center"><b><a href="https://github.com/Chan0322">Chan0322</a></b></td>
-    <td align="center"><b><a href="https://github.com/KangPeanut">KangPeanut</a></b></td>
-    <td align="center"><b><a href="https://github.com/papjukuk">papjukuk</a></b></td>
-<td align="center"><b><a href="https://github.com/8haneol8">8haneol8</a></b></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Leader</b></td>
-    <td align="center"><b>H/W</b></td>
-    <td align="center"><b>H/W</b></td>
-    <td align="center"><b>S/W</b></td>
-    <td align="center"><b>S/W</b></td>
-  </tr>
-</table>
+|<img src="https://avatars.githubusercontent.com/u/136697128?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/70271230?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/164983782?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/164983586?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/164983694?v=4" width="150" height="150"/>|
+|:-:|:-:|:-:|:-:|:-:|
+|eksploiter<br/>Leader<br/>[@eksploiter](https://github.com/eksploiter)|Chan0322<br/>H/W<br/>[@Chan0322](https://github.com/Chan0322)|KangPeanut<br/>H/W<br/>[@KangPeanut](https://github.com/KangPeanut)|papjukuk<br/>S/W<br/>[@papjukuk](https://github.com/papjukuk)|8haneol8<br/>S/W<br/>[@8haneol8](https://github.com/8haneol8)|
 <br/>
 
 ## Result of the Contest
