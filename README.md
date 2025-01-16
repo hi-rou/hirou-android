@@ -9,7 +9,7 @@
 
 ---
 
-### 📆 Project Period
+## 📆 Project Period
 - CAPSTONE DESIGN : 2024.03.01 ~ 2024.06.14
 - James Dyson Award : 2024.06.17 ~ 2024.07.17 (Modifying and supplementing functions)
 
@@ -66,7 +66,7 @@
 <br/>
 
 
-## 🛠 Tools
+## Dev Tools
 #### Design & Frontend
 <p>
   <img src="https://img.shields.io/badge/Android-34A853?style=for-the-badge&logo=Android&logoColor=white"/>
@@ -96,7 +96,7 @@
 </p>
 <br>
 
-### 😎 Members
+## Team
 |<img src="https://avatars.githubusercontent.com/u/136697128?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/70271230?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/164983782?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/164983586?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/164983694?v=4" width="150" height="150"/>|
 |:-:|:-:|:-:|:-:|:-:|
 |eksploiter<br/>Leader<br/>[@eksploiter](https://github.com/eksploiter)|Chan0322<br/>H/W<br/>[@Chan0322](https://github.com/Chan0322)|KangPeanut<br/>H/W<br/>[@KangPeanut](https://github.com/KangPeanut)|papjukuk<br/>S/W<br/>[@papjukuk](https://github.com/papjukuk)|8haneol8<br/>S/W<br/>[@8haneol8](https://github.com/8haneol8)|
